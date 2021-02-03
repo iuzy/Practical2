@@ -9,7 +9,7 @@ public class Practical2 {
     static void Assignment1() {
 
 
-        System.out.println("What day is it?");
+        System.out.println("What day is it (Enter numbers from 1 to 7)?");
         int day = input.nextInt();
 
         switch (day) {
@@ -90,7 +90,6 @@ public class Practical2 {
                 } else {
                     System.out.println("Result is a % b: " + (a % b));
                 }
-                break;
             case 'p':
                 System.out.println("Both elements are: " + a + " and " + b);
                 break;
@@ -102,17 +101,16 @@ public class Practical2 {
                 } else {
                     System.out.println("a and b are the same!");
                 }
-                break;
             case 's':
                 if (a < b) {
-                    System.out.println("a is smller than b");
+                    System.out.println("a is smaller than b");
                 } else if (b < a) {
                     System.out.println("b is smaller than a");
                 } else {
                     System.out.println("a and b are the same!");
-                }                break;
+                }
             default:
-                System.out.println("Result is ");
+                System.out.println("Something wrong with the values that you have entered!");
         }
     }
 
